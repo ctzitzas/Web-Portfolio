@@ -1,11 +1,7 @@
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-}
 
 .home-container {
   background-image: url("img/dark-2024127_1280.png");
+
   height: 100%;
   width: 100%;
   background-position: center;
@@ -40,17 +36,18 @@ html, body {
 }
 
 #highlight {
-  color: #E31D6d;
+  color: #E31D6d
 }
 
 .down-arrow {
-  width: 4vw;
-  position: absolute;
-  bottom: 0;
-  left: 48vw;
+  width: 50px;
+  position: relative;
+  align-items: center;
+  justify-content: end;
 }
 
 @media only screen and (max-width: 600px) {
+
   .home-text p {
     font-size: 20px;
   }
@@ -59,11 +56,4 @@ html, body {
     font-size: 20px;
     height: 30px;
   }
-
-  .down-arrow {
-    width: 8vw;
-    left: 46vw;
-  }
 }
-
-/*# sourceMappingURL=style.css.map */
