@@ -39,8 +39,13 @@ html, body {
   font-size: 30px;
 }
 
+.button:hover {
+  color: #EF5D60;
+  border: 1px solid #EF5D60;
+}
+
 #highlight {
-  color: #E31D6d;
+  color: #EF5D60;
 }
 
 .down-arrow {
@@ -52,7 +57,7 @@ html, body {
 
 @media only screen and (max-width: 600px) {
   .home-text p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .button {
@@ -63,6 +68,52 @@ html, body {
   .down-arrow {
     width: 8vw;
     left: 46vw;
+  }
+}
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid #7A918D;
+  position: sticky;
+}
+
+.nav-link-container {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-link-container a {
+  font-size: 20px;
+  height: 50px;
+  text-decoration: none;
+  color: #F1DEDE;
+  padding: 0 20px;
+  margin: 20px 0 0 0;
+}
+
+.nav-link-home:hover,
+.nav-link-skills:hover,
+.nav-link-blog:hover,
+.nav-link-about:hover {
+  color: #EF5D60;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-link-container {
+    justify-content: center;
+  }
+
+  .nav-link-container a {
+    font-size: 15px;
+    padding: 0 15px;
+    margin: 20px 0 0 0;
+    height: 20px;
   }
 }
 
