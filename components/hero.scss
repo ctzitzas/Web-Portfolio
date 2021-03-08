@@ -35,8 +35,13 @@
   font-size: 30px;
 }
 
+.button:hover {
+  color: #EF5D60;
+  border: 1px solid #EF5D60;
+}
+
 #highlight {
-  color: #E31D6d
+  color: #EF5D60
 }
 
 .down-arrow {
@@ -48,7 +53,7 @@
 
 @media only screen and (max-width: 600px) {
   .home-text p {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .button {
