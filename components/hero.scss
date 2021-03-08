@@ -40,14 +40,13 @@
 }
 
 .down-arrow {
-  width: 50px;
-  position: relative;
-  align-items: center;
-  justify-content: end;
+  width: 4vw;
+  position: absolute;
+  bottom: 0;
+  left: 48vw;
 }
 
 @media only screen and (max-width: 600px) {
-
   .home-text p {
     font-size: 20px;
   }
@@ -55,5 +54,10 @@
   .button {
     font-size: 20px;
     height: 30px;
+  }
+
+  .down-arrow {
+    width: 8vw;
+    left: 46vw;
   }
 }
