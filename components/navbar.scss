@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 5px solid #7A918D;
+  border-bottom: 5px solid $secondary-color;
 }
 
 .nav-link-container {
@@ -26,7 +26,7 @@
   font-size: 20px;
   height: 50px;
   text-decoration: none;
-  color: #F1DEDE;
+  color: $text-color;
   padding: 0 20px;
   margin: 20px 0 0 0;
 

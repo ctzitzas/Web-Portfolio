@@ -23,7 +23,7 @@ html, body {
 }
 
 .home-text p {
-  color: white;
+  color: #F1DEDE;
   text-align: center;
   font-size: 40px;
   padding: 0;
@@ -31,9 +31,9 @@ html, body {
 }
 
 .button {
-  border: 2px solid white;
+  border: 2px solid #F1DEDE;
   text-decoration: none;
-  color: white;
+  color: #F1DEDE;
   padding: 4px 4px 4px 10px;
   text-align: center;
   font-size: 30px;

@@ -19,7 +19,7 @@
 }
 
 .home-text p {
-  color: white;
+  color: $text-color;
   text-align: center;
   font-size: 40px;
   padding: 0;
@@ -27,21 +27,21 @@
 }
 
 .button {
-  border: 2px solid white;
+  border: 2px solid $text-color;
   text-decoration: none;
-  color: white;
+  color: $text-color;
   padding: 4px 4px 4px 10px;
   text-align: center;
   font-size: 30px;
 }
 
 .button:hover {
-  color: #EF5D60;
-  border: 1px solid #EF5D60;
+  color: $highlight;
+  border: 1px solid $highlight;
 }
 
 #highlight {
-  color: #EF5D60
+  color: $highlight;
 }
 
 .down-arrow {
