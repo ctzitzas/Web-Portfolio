@@ -4,6 +4,11 @@ html, body {
   height: 100%;
 }
 
+main {
+  padding: 0px;
+  margin: 0px;
+}
+
 .hero-container {
   background-image: url("img/home-background.png");
   height: 100%;
@@ -78,7 +83,7 @@ html, body {
 
 .navbar {
   overflow: hidden;
-  height: 50px;
+  height: 40px;
   width: 100%;
   background-color: black;
   display: flex;
@@ -96,11 +101,11 @@ html, body {
 
 .nav-link-container a {
   font-size: 20px;
-  height: 50px;
+  height: 40px;
   text-decoration: none;
   color: #F1DEDE;
   padding: 0 20px;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .nav-link-home:hover,
@@ -271,9 +276,10 @@ html, body {
   }
 }
 .footer-container {
-  height: 60px;
+  height: 50px;
   width: 100%;
   background-color: black;
+  border-top: 5px solid #7A918D;
   display: flex;
   align-items: center;
   justify-content: center;
