@@ -189,7 +189,7 @@ html, body {
   }
 
   main {
-    height: 2000px;
+    height: 2620px;
   }
 }
 .contact-me-container {
@@ -223,9 +223,9 @@ html, body {
 }
 
 .contact-form {
-  padding: 0 0 0 25px;
   border: 1px solid black;
-  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-input {
@@ -235,8 +235,7 @@ html, body {
 }
 
 .form-container {
-  align-items: center;
-  justify-items: center;
+  text-align: center;
 }
 
 #message {
@@ -269,6 +268,45 @@ html, body {
   .contact-form {
     width: 300px;
     height: 400px;
+  }
+}
+.footer-container {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.created-by {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text {
+  margin: 0;
+}
+
+.social-links i {
+  margin: 0 10px;
+}
+
+.created-by p, .created-by i, .social-links i {
+  color: #F1DEDE;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-link-container {
+    width: 300px;
   }
 }
 
