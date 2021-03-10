@@ -4,7 +4,7 @@ html, body {
   height: 100%;
 }
 
-.home-container {
+.hero-container {
   background-image: url("img/home-background.png");
   height: 100%;
   width: 100%;
@@ -17,12 +17,12 @@ html, body {
   height: 100%;
 }
 
-.home-text {
+.hero-text {
   top: 40vh;
   position: relative;
 }
 
-.home-text p {
+.hero-text p {
   color: #F1DEDE;
   text-align: center;
   font-size: 40px;

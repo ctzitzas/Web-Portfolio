@@ -1,5 +1,6 @@
+// hero
 
-.home-container {
+.hero-container {
   background-image: url("img/home-background.png");
 
   height: 100%;
@@ -13,12 +14,12 @@
   height: 100%;
 }
 
-.home-text {
+.hero-text {
   top: 40vh;
   position: relative;
 }
 
-.home-text p {
+.hero-text p {
   color: $text-color;
   text-align: center;
   font-size: 40px;
