@@ -29,11 +29,10 @@
 }
 
 .contact-form {
-  padding: 0 0 0 25px;
   border: 1px solid black;
-  width: 60%;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .form-input {
   margin: 5px;
@@ -42,8 +41,7 @@
 }
 
 .form-container {
-  align-items: center;
-  justify-items: center;
+  text-align: center;
 }
 
 #message {
@@ -61,6 +59,7 @@
   .contact-me-container {
     height: 750px;
   }
+  
   .contact-me {
     flex-direction: column-reverse;
     align-items: center;
