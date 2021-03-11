@@ -6,13 +6,8 @@ $tertiary-color: #CBE896;
 $highlight: #EF5D60;
 $text-color: #F1DEDE;
 
-html, body {
-  padding: 0;
-  margin: 0;
-  height: 100%
-}
-
-main {
+body, html, main {
   padding: 0px;
   margin: 0px;
+  // overflow: auto;
 }
