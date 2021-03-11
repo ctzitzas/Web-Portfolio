@@ -143,7 +143,7 @@ main {
 
 .blog-card-container {
   display: flex;
-  height: 900px;
+  height: 940px;
   width: 900px;
   flex-wrap: wrap;
 }
@@ -313,6 +313,68 @@ main {
 @media only screen and (max-width: 600px) {
   .footer-link-container {
     width: 300px;
+  }
+}
+.skills-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-heading-container {
+  width: 900px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skills-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 940px;
+  width: 900px;
+}
+
+.skills-card {
+  height: 448px;
+  width: 448px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dl-resume-container {
+  border: 1px solid black;
+  width: 900px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .skills-heading-container {
+    width: 400px;
+  }
+
+  .skills-card-container {
+    width: 400px;
+    height: 1800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skills-heading-container, .skills-card-container, .skills-card {
+    width: 300px;
+  }
+
+  main {
+    height: 1900px;
   }
 }
 
