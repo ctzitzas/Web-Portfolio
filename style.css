@@ -56,14 +56,6 @@ h4, h5 {
   top: 40vh;
 }
 
-.hero-text p {
-  color: #F1DEDE;
-  text-align: center;
-  font-size: 40px;
-  padding: 0;
-  margin: 20px;
-}
-
 .hero-button {
   border: 2px solid #F1DEDE;
   text-decoration: none;
@@ -108,6 +100,7 @@ h4, h5 {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
+  z-index: 2;
 }
 
 .navbar {
@@ -161,6 +154,8 @@ h4, h5 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 1;
+  background-color: #EEEEEE;
 }
 
 .blog-heading-container {
@@ -184,6 +179,85 @@ h4, h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.blog-card-text {
+  display: none;
+}
+
+#blog-card-one {
+  background-image: url("img/beach.jpeg");
+}
+
+#blog-card-two {
+  background-image: url("img/forrest.jpeg");
+}
+
+#blog-card-three {
+  background-image: url("img/mountains.jpeg");
+}
+
+#blog-card-four {
+  background-image: url("img/skateboard.jpeg");
+}
+
+.blog-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(80%);
+}
+
+.blog-card h2 {
+  color: #EF5D60;
+}
+
+.blog-card-text h3, .blog-card-text a {
+  color: #EF5D60;
+}
+
+#blog-card-one:hover .blog-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#blog-card-two:hover .blog-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#blog-card-three:hover .blog-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#blog-card-four:hover .blog-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#blog-card-one:hover {
+  opacity: 80%;
+}
+
+#blog-card-two:hover {
+  opacity: 80%;
+}
+
+#blog-card-three:hover {
+  opacity: 80%;
+}
+
+#blog-card-four:hover {
+  opacity: 80%;
 }
 
 .blog-link-bar {
@@ -227,6 +301,7 @@ h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #EEEEEE;
 }
 
 .contact-me-content {
@@ -356,6 +431,7 @@ h4, h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #EEEEEE;
 }
 
 .skills-heading-container {
@@ -420,6 +496,7 @@ h4, h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #EEEEEE;
 }
 
 .blog-post-container {
@@ -484,6 +561,7 @@ h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #EEEEEE;
 }
 
 .about-me-content {
