@@ -1,16 +1,19 @@
 // skills
 
 .skills-container {
+  height: 1100px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: $background-color;
+
 }
 
 .skills-heading-container {
   width: 900px;
+  height: 100px;
   display: flex;
   justify-content: flex-start;
 }
@@ -18,44 +21,70 @@
 .skills-card-container {
   display: flex;
   flex-wrap: wrap;
-  height: 940px;
+  height: 900px;
   width: 900px;
+  background-color: $primary-color;
+  border: 5px solid $secondary-color;
 }
 
 .skills-card {
   height: 448px;
   width: 448px;
-  border: 1px solid black;
+  border: 1px solid $secondary-color;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  h2 {
+    font-size: 40px;
+    color: $text-color;
+  }
+}
+
+.skills-list p {
+  font-size: 25px;
+  color: $text-color;
 }
 
 .dl-resume-container {
-  border: 1px solid black;;
   width: 900px;
-  height: 40px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px;
+}
+
+.dl-resume-button {
+  color: $highlight;
+  border: 3px solid $highlight;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 900px) {
+
+  .skills-container {
+    height: 1950px;
+  }
   .skills-heading-container {
     width: 400px;
   }
 
   .skills-card-container {
-    width: 400px;
-    height: 1820px;
+    width: 448px;
+    height: 1980px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
+  .skills-card {
+    border-bottom: 1px solid $secondary-color;
+  }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   
   .skills-heading-container,
   .skills-card-container,
