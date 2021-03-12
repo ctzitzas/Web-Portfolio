@@ -3,6 +3,26 @@ body, html, main {
   margin: 0px;
 }
 
+h1 {
+  font-size: 40px;
+  color: #F1DEDE;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+}
+
+h1, h2, a {
+  font-family: "Architects Daughter", cursive;
+}
+
+h3, p {
+  font-family: "Roboto", sans-serif;
+}
+
+h4, h5 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
 .hero-container {
   position: relative;
   height: 100vh;
@@ -228,6 +248,12 @@ body, html, main {
   text-align: center;
 }
 
+.contact-info img {
+  margin: 30px 0 15px 0;
+  height: 100px;
+  width: 150px;
+}
+
 .contact-info p {
   padding: 0 20px;
   margin: 10px 0;
@@ -276,7 +302,7 @@ body, html, main {
 
   .contact-info {
     width: 300px;
-    height: 250px;
+    height: 440px;
   }
 
   .contact-form {
