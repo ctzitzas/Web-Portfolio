@@ -9,5 +9,25 @@ $text-color: #F1DEDE;
 body, html, main {
   padding: 0px;
   margin: 0px;
-  // overflow: auto;
 }
+
+h1 {
+  font-size: 40px;
+  color: $text-color;
+  text-align: center;
+  padding: 0;
+  margin: 20px;
+}
+
+h1, h2, a {
+  font-family: 'Architects Daughter', cursive;
+}
+
+h3, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h4, h5 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
