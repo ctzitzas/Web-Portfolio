@@ -178,6 +178,7 @@ h4, h5 {
   height: 940px;
   width: 900px;
   flex-wrap: wrap;
+  border: 5px solid #7A918D;
 }
 
 .blog-card {
@@ -320,6 +321,7 @@ h4, h5 {
   justify-content: center;
   align-items: center;
   background-color: #04202E;
+  border: 5px solid #7A918D;
 }
 
 .contact-heading {
@@ -332,7 +334,6 @@ h4, h5 {
 }
 
 .contact-info {
-  border: 1px solid black;
   width: 40%;
   height: 100%;
   text-align: center;
@@ -345,13 +346,12 @@ h4, h5 {
 }
 
 .contact-info p {
-  padding: 0 20px;
+  padding: 0 40px;
   margin: 10px 0;
   text-align: left;
 }
 
 .contact-form {
-  border: 1px solid black;
   display: flex;
   height: 100%;
   width: 60%;
@@ -380,24 +380,40 @@ h4, h5 {
 
 @media only screen and (max-width: 700px) {
   .contact-me-container {
-    height: 730px;
+    height: 800px;
   }
 
   .contact-me-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 650px;
+    height: 740px;
+    width: 448px;
   }
 
   .contact-info {
+    width: 350px;
+    height: 360px;
+  }
+
+  .contact-form {
+    width: 400px;
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .contact-me-content {
     width: 300px;
-    height: 440px;
+  }
+
+  contact-info {
+    width: 300px;
+    height: 360px;
   }
 
   .contact-form {
     width: 300px;
-    height: 400px;
+    height: 450px;
   }
 }
 .footer-container {
@@ -441,16 +457,18 @@ h4, h5 {
   }
 }
 .skills-container {
+  height: 1100px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: white;
 }
 
 .skills-heading-container {
   width: 900px;
+  height: 100px;
   display: flex;
   justify-content: flex-start;
 }
@@ -458,43 +476,68 @@ h4, h5 {
 .skills-card-container {
   display: flex;
   flex-wrap: wrap;
-  height: 940px;
+  height: 900px;
   width: 900px;
+  background-color: #04202E;
+  border: 5px solid #7A918D;
 }
 
 .skills-card {
   height: 448px;
   width: 448px;
-  border: 1px solid black;
+  border: 1px solid #7A918D;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.skills-card h2 {
+  font-size: 40px;
+  color: #F1DEDE;
+}
+
+.skills-list p {
+  font-size: 25px;
+  color: #F1DEDE;
+}
 
 .dl-resume-container {
-  border: 1px solid black;
   width: 900px;
-  height: 40px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px;
+}
+
+.dl-resume-button {
+  color: #EF5D60;
+  border: 3px solid #EF5D60;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 900px) {
+  .skills-container {
+    height: 1950px;
+  }
+
   .skills-heading-container {
     width: 400px;
   }
 
   .skills-card-container {
-    width: 400px;
-    height: 1820px;
+    width: 448px;
+    height: 1980px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
+
+  .skills-card {
+    border-bottom: 1px solid #7A918D;
+  }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 450px) {
   .skills-heading-container,
 .skills-card-container,
 .skills-card {
@@ -576,16 +619,20 @@ h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
 }
 
 .about-me-content {
-  border: 1px solid black;
+  border: 3px solid #7A918D;
   width: 900px;
   margin: 20px;
+  background-color: #04202E;
 }
 .about-me-content h2, .about-me-content h3 {
   text-align: center;
+  color: #F1DEDE;
+}
+.about-me-content p {
+  color: #F1DEDE;
 }
 
 .introduction,

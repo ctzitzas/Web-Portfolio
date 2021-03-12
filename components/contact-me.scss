@@ -16,6 +16,7 @@
   justify-content: center;
   align-items: center;
   background-color: $primary-color;
+  border: 5px solid $secondary-color;
 }
 
 .contact-heading {
@@ -28,7 +29,6 @@
 }
 
 .contact-info {
-  border: 1px solid black;
   width: 40%;
   height: 100%;
   text-align: center;
@@ -41,13 +41,12 @@
 }
 
 .contact-info p {
-  padding: 0 20px;
+  padding: 0 40px;
   margin: 10px 0;
   text-align: left;
 }
 
 .contact-form {
-  border: 1px solid black;
   display: flex;
   height: 100%;
   width: 60%;
@@ -77,25 +76,42 @@
 @media only screen and (max-width: 700px) {
 
   .contact-me-container {
-    height: 730px;
+    height: 800px;
   }
   
   .contact-me-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 650px;
+    height: 740px;
+    width: 448px
   }
 
   .contact-info {
+    width: 350px;
+    height: 360px;
+  }
+
+  .contact-form {
+    width: 400px;
+    height: 450px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-me-content {
     width: 300px;
-    height: 440px;
+  }
+
+  contact-info {
+    width: 300px;
+    height: 360px;
   }
 
   .contact-form {
     width: 300px;
-    height: 400px;
+    height: 450px;
   }
-
-  
 }

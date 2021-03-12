@@ -21,6 +21,7 @@ justify-content: flex-start;
   height: 940px;
   width: 900px;
   flex-wrap: wrap;
+  border: 5px solid $secondary-color;
 }
 
 .blog-card {
@@ -31,8 +32,6 @@ justify-content: flex-start;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  
 }
 
 .blog-card-text {
