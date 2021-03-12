@@ -44,7 +44,7 @@ body, html, main {
   margin: 20px;
 }
 
-.button {
+.hero-button {
   border: 2px solid #F1DEDE;
   text-decoration: none;
   color: #F1DEDE;
@@ -53,7 +53,7 @@ body, html, main {
   font-size: 30px;
 }
 
-.button:hover {
+.hero-button:hover {
   color: #EF5D60;
   border: 1px solid #EF5D60;
 }
@@ -101,7 +101,7 @@ body, html, main {
 }
 
 .nav-link-container {
-  width: 1000px;
+  width: 900px;
   height: 100%;
   display: flex;
   justify-content: flex-start;
@@ -112,7 +112,7 @@ body, html, main {
   height: 40px;
   text-decoration: none;
   color: #F1DEDE;
-  padding: 0 20px;
+  padding: 0 40px 0 0;
   margin: 10px 0 0 0;
 }
 
@@ -203,7 +203,7 @@ body, html, main {
 }
 .contact-me-container {
   width: 100%;
-  height: 550px;
+  height: 470px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -295,7 +295,7 @@ body, html, main {
 }
 
 .footer-link-container {
-  width: 1000px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -371,7 +371,7 @@ body, html, main {
 
   .skills-card-container {
     width: 400px;
-    height: 1800px;
+    height: 1820px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -384,8 +384,73 @@ body, html, main {
     width: 300px;
   }
 
-  main {
-    height: 2000px;
+  .skills-container {
+    height: 1952px;
+  }
+}
+.blog-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-post-container {
+  width: 900px;
+  border: 1px solid black;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-image {
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+}
+
+.blog-body {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-info h3, .blog-info h4, .blog-info h5 {
+  margin: 4px;
+}
+
+@media only screen and (max-width: 950px) {
+  .blog-post-container {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .blog-image {
+    height: 150px;
+    width: 225px;
+    margin-top: 30px;
+  }
+
+  .blog-post {
+    flex-direction: column;
+  }
+
+  .blog-post-container {
+    width: 80vw;
   }
 }
 
