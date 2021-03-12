@@ -1,0 +1,61 @@
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-content {
+  border: 1px solid black;
+  width: 900px;
+  margin: 20px;
+
+  h2, h3 {
+    text-align: center;
+  }
+}
+
+.introduction,
+.interests,
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    margin: 20px;
+  }
+
+}
+
+.about-me-img {
+  height: 200px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .introduction,
+  .interests,
+  .hobbies {
+    
+    img {
+      height: 100px;
+      width: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .about-me-content {
+    margin: 10px;
+  }
+  
+  .introduction,
+  .interests,
+  .hobbies {
+
+    flex-direction: column;
+    
+  }
+}
