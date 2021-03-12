@@ -7,7 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 z-index: 1;
-background-color: #EEEEEE;
+background-color: $background-color;
 }
 
 .blog-heading-container {
@@ -59,7 +59,7 @@ justify-content: flex-start;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  filter: brightness(80%);
+  filter: brightness(70%);
 }
 
 .blog-card {

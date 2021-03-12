@@ -5,7 +5,7 @@ $secondary-color: #7A918D;
 $tertiary-color: #CBE896;
 $highlight: #EF5D60;
 $text-color: #F1DEDE;
-$background-color: #EEEEEE;
+$background-color: white;
 
 body, html, main {
   padding: 0px;
@@ -20,6 +20,10 @@ h1 {
   margin: 20px;
 }
 
+h2 {
+  font-size: 35px;
+}
+
 h1, h2, a {
   font-family: 'Architects Daughter', cursive;
 }
@@ -30,5 +34,10 @@ h3, p {
 
 h4, h5 {
   font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contact-info p {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
 }
 

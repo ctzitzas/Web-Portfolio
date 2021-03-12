@@ -11,6 +11,10 @@ h1 {
   margin: 20px;
 }
 
+h2 {
+  font-size: 35px;
+}
+
 h1, h2, a {
   font-family: "Architects Daughter", cursive;
 }
@@ -21,6 +25,11 @@ h3, p {
 
 h4, h5 {
   font-family: "Open Sans Condensed", sans-serif;
+}
+
+.contact-info p {
+  font-family: "Architects Daughter", cursive;
+  font-weight: bold;
 }
 
 .hero-container {
@@ -155,7 +164,7 @@ h4, h5 {
   align-items: center;
   justify-content: center;
   z-index: 1;
-  background-color: #EEEEEE;
+  background-color: white;
 }
 
 .blog-heading-container {
@@ -205,7 +214,7 @@ h4, h5 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  filter: brightness(80%);
+  filter: brightness(70%);
 }
 
 .blog-card h2 {
@@ -301,7 +310,7 @@ h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EEEEEE;
+  background-color: white;
 }
 
 .contact-me-content {
@@ -310,10 +319,16 @@ h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #04202E;
 }
 
 .contact-heading {
   padding: 0 20px;
+}
+
+.contact-heading,
+.contact-info p {
+  color: #F1DEDE;
 }
 
 .contact-info {
@@ -431,7 +446,7 @@ h4, h5 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #EEEEEE;
+  background-color: white;
 }
 
 .skills-heading-container {
@@ -496,7 +511,7 @@ h4, h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #EEEEEE;
+  background-color: white;
 }
 
 .blog-post-container {
@@ -561,7 +576,7 @@ h4, h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #EEEEEE;
+  background-color: white;
 }
 
 .about-me-content {

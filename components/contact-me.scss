@@ -15,10 +15,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: $primary-color;
 }
 
 .contact-heading {
   padding: 0 20px;
+}
+
+.contact-heading,
+.contact-info p {
+  color: $text-color;
 }
 
 .contact-info {
