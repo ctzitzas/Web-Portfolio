@@ -43,7 +43,7 @@
   margin: 20px;
 }
 
-.button {
+.hero-button {
   border: 2px solid $text-color;
   text-decoration: none;
   color: $text-color;
@@ -52,7 +52,7 @@
   font-size: 30px;
 }
 
-.button:hover {
+.hero-button:hover {
   color: $highlight;
   border: 1px solid $highlight;
 }
