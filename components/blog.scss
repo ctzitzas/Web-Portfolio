@@ -60,7 +60,13 @@
   .blog-post {
     flex-direction: column;
   }
+  
+}
+
+@media only screen and (max-width: 400px) {
+
   .blog-post-container {
-    width: 80vw;
+    width: 300px;
   }
+
 }
