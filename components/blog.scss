@@ -1,4 +1,6 @@
 
+// Blog component
+
 .blog-container {
   width: 100%;
   display: flex;
@@ -6,16 +8,24 @@
   align-items: center;
   flex-direction: column;
   background-color: $background-color;
+
+  h2 {
+    color: $tertiary-color;
+    font-size: 50px;
+  }
 }
 
 .blog-post-container {
-  width: 900px;
+  width: 75vw;
   border: 3px solid $secondary-color;
+  background-color: $primary-color;
 }
 
 .blog-post {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog-head {
@@ -25,8 +35,8 @@
 }
 
 .blog-image {
-  height: 200px;
-  width: 300px;
+  height: 100px;
+  width: 150px;
   margin: 20px;
 }
 
@@ -40,34 +50,42 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 250px;
 
-  h3, h4, h5 {
+  h3,
+  h4,
+  h5 {
     margin: 4px;
   }
 }
 
-@media only screen and (max-width: 950px) {
-  .blog-post-container {
-    width:80vw;
-  }
+.blog-post-link:hover {
+  color: $text-color;
+  border: 2px solid $text-color;
 }
 
-@media only screen and (max-width: 700px) {
-  .blog-image {
-    height: 150px;
-    width: 225px;
-    margin-top: 30px;
+@media only screen and (max-width: 900px) {
+  .blog-post-container {
+    width: 80vw;
   }
+
+}
+
+@media only screen and (max-width: 800px) {
+  .blog-post-container {
+    height: 320px;
+    width: 60vw;
+  }
+
   .blog-post {
     flex-direction: column;
   }
-  
-}
 
-@media only screen and (max-width: 400px) {
+  .blog-info {
+    align-items: center;
 
-  .blog-post-container {
-    width: 300px;
   }
 
 }
+
+@media only screen and (max-width: 400px) {}

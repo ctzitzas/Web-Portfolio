@@ -1,3 +1,4 @@
+
 // global
 
 $primary-color: #04202E;
@@ -7,9 +8,9 @@ $highlight: #EF4043;
 $text-color: #F1DEDE;
 $background-color: #020F16;
 
-
-// $highlight: #EF5D60;
-body, html, main {
+body,
+html,
+main {
   padding: 0px;
   margin: 0px;
 }
@@ -27,17 +28,21 @@ h2 {
   color: $text-color;
 }
 
-h1, h2, a {
+h1,
+h2,
+a {
   font-family: 'Architects Daughter', cursive;
   color: $text-color;
 }
 
-h3, p {
+h3,
+p {
   font-family: 'Roboto', sans-serif;
   color: $text-color;
 }
 
-h4, h5 {
+h4,
+h5 {
   font-family: 'Open Sans Condensed', sans-serif;
   color: $text-color;
 }
@@ -47,3 +52,10 @@ h4, h5 {
   font-weight: bold;
 }
 
+.button {
+  color: $highlight;
+  font-size: 20px;
+  border: 2px solid $highlight;
+  text-decoration: none;
+  padding: 8px;
+}

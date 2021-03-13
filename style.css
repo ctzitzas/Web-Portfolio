@@ -1,4 +1,6 @@
-body, html, main {
+body,
+html,
+main {
   padding: 0px;
   margin: 0px;
 }
@@ -16,17 +18,21 @@ h2 {
   color: #F1DEDE;
 }
 
-h1, h2, a {
+h1,
+h2,
+a {
   font-family: "Architects Daughter", cursive;
   color: #F1DEDE;
 }
 
-h3, p {
+h3,
+p {
   font-family: "Roboto", sans-serif;
   color: #F1DEDE;
 }
 
-h4, h5 {
+h4,
+h5 {
   font-family: "Open Sans Condensed", sans-serif;
   color: #F1DEDE;
 }
@@ -34,6 +40,14 @@ h4, h5 {
 .contact-info p {
   font-family: "Architects Daughter", cursive;
   font-weight: bold;
+}
+
+.button {
+  color: #EF4043;
+  font-size: 20px;
+  border: 2px solid #EF4043;
+  text-decoration: none;
+  padding: 8px;
 }
 
 .hero-container {
@@ -161,9 +175,9 @@ h4, h5 {
   }
 
   .nav-link-container a {
-    font-size: 15px;
+    font-size: 18px;
     padding: 0 15px;
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
     height: 20px;
   }
 }
@@ -201,7 +215,7 @@ h4, h5 {
 .blog-card h3 {
   margin-top: 0;
   color: #EF4043;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 #blog-card-one {
@@ -231,19 +245,16 @@ h4, h5 {
   color: #EF4043;
 }
 
-.blog-card-text h3, .blog-card-text a {
+.blog-card-text h3,
+.blog-card-text a {
   color: #EF4043;
 }
 
 .read-more {
   position: absolute;
   top: 40%;
-  color: #EF4043;
   display: none;
-  font-size: 30px;
-  border: 2px solid #EF4043;
-  text-decoration: none;
-  padding: 5px;
+  background-color: #04202E;
 }
 
 .read-more:hover {
@@ -293,10 +304,13 @@ h4, h5 {
   .blog-card {
     width: 300px;
   }
+  .blog-card h2 {
+    font-size: 28px;
+  }
 }
 .contact-me-container {
   width: 100%;
-  height: 470px;
+  height: 520px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,7 +318,7 @@ h4, h5 {
 }
 
 .contact-me-content {
-  height: 400px;
+  height: 480px;
   width: 650px;
   display: flex;
   justify-content: center;
@@ -315,9 +329,9 @@ h4, h5 {
 
 .contact-heading {
   padding: 0 20px;
+  color: #CBE896;
 }
 
-.contact-heading,
 .contact-info p {
   color: #F1DEDE;
 }
@@ -330,8 +344,7 @@ h4, h5 {
 
 .contact-info img {
   margin: 30px 0 15px 0;
-  height: 100px;
-  width: 150px;
+  max-height: 150px;
 }
 
 .contact-info p {
@@ -345,16 +358,29 @@ h4, h5 {
   height: 100%;
   width: 60%;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: #F1DEDE;
+  margin-left: 10px;
+  display: block;
+  float: left;
+}
+
+input {
+  margin: 20px;
+}
+
+form {
+  margin: 0 0 30px 60px;
 }
 
 .form-input {
   margin: 5px;
   width: 80%;
   box-sizing: border-box;
-}
-
-.form-container {
-  text-align: center;
 }
 
 #message {
@@ -369,20 +395,23 @@ h4, h5 {
 
 @media only screen and (max-width: 700px) {
   .contact-me-container {
-    height: 800px;
+    height: 870px;
   }
 
   .contact-me-content {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 740px;
+    height: 830px;
     width: 448px;
   }
 
   .contact-info {
     width: 350px;
     height: 360px;
+  }
+  .contact-info p {
+    text-align: center;
   }
 
   .contact-form {
@@ -392,17 +421,21 @@ h4, h5 {
 }
 @media only screen and (max-width: 450px) {
   .contact-me-content {
-    width: 280px;
+    width: 85vw;
   }
 
   .contact-info {
-    width: 280px;
+    width: 85vw;
     height: 360px;
   }
 
   .contact-form {
-    width: 280px;
+    width: 85vw;
     height: 450px;
+  }
+
+  form {
+    margin-left: 40px;
   }
 }
 .footer-container {
@@ -435,7 +468,9 @@ h4, h5 {
   margin: 0 10px;
 }
 
-.created-by p, .created-by i, .social-links i {
+.created-by p,
+.created-by i,
+.social-links i {
   color: #F1DEDE;
   font-size: 20px;
 }
@@ -462,9 +497,14 @@ h4, h5 {
 
 .skills-heading-container {
   width: 900px;
-  height: 100px;
+  height: 70px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+.skills-heading-container h2 {
+  color: #CBE896;
+  font-size: 50px;
 }
 
 .skills-card-container {
@@ -487,7 +527,7 @@ h4, h5 {
 }
 .skills-card h2 {
   font-size: 40px;
-  color: #F1DEDE;
+  color: #CBE896;
 }
 
 .skills-list p {
@@ -495,22 +535,7 @@ h4, h5 {
   color: #F1DEDE;
 }
 
-.dl-resume-container {
-  width: 900px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
-
-.dl-resume-button {
-  color: #EF4043;
-  border: 3px solid #EF4043;
-  padding: 10px;
-}
-
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 920px) {
   .skills-container {
     height: 1950px;
   }
@@ -521,7 +546,7 @@ h4, h5 {
 
   .skills-card-container {
     width: 448px;
-    height: 1980px;
+    height: 1800px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -542,73 +567,6 @@ h4, h5 {
     height: 1952px;
   }
 }
-.blog-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #020F16;
-}
-
-.blog-post-container {
-  width: 900px;
-  border: 3px solid #7A918D;
-}
-
-.blog-post {
-  display: flex;
-  flex-direction: row;
-}
-
-.blog-head {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.blog-image {
-  height: 200px;
-  width: 300px;
-  margin: 20px;
-}
-
-.blog-body {
-  display: flex;
-  flex-direction: column;
-  margin: 15px;
-}
-
-.blog-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.blog-info h3, .blog-info h4, .blog-info h5 {
-  margin: 4px;
-}
-
-@media only screen and (max-width: 950px) {
-  .blog-post-container {
-    width: 80vw;
-  }
-}
-@media only screen and (max-width: 700px) {
-  .blog-image {
-    height: 150px;
-    width: 225px;
-    margin-top: 30px;
-  }
-
-  .blog-post {
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .blog-post-container {
-    width: 300px;
-  }
-}
 .about-me-container {
   display: flex;
   justify-content: center;
@@ -619,15 +577,22 @@ h4, h5 {
 .about-me-content {
   border: 3px solid #7A918D;
   width: 900px;
-  margin: 20px;
   background-color: #04202E;
+  margin: 10px 0px;
 }
-.about-me-content h2, .about-me-content h3 {
+.about-me-content h2,
+.about-me-content h3 {
   text-align: center;
-  color: #F1DEDE;
+  color: #CBE896;
+  margin: 15px;
 }
 .about-me-content p {
   color: #F1DEDE;
+  margin: 20px;
+  text-align: center;
+}
+.about-me-content a {
+  text-align: center;
 }
 
 .introduction,
@@ -648,12 +613,36 @@ h4, h5 {
   width: 300px;
 }
 
+.dl-resume-container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+}
+
+.dl-resume-button:hover {
+  color: white;
+  border: 3px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-me-content {
+    width: 90vw;
+  }
+
+  .introduction,
+.interests,
+.hobbies {
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 700px) {
-  .introduction img,
-.interests img,
-.hobbies img {
-    height: 100px;
-    width: 150px;
+  .about-me-img {
+    height: 180px;
+    width: 270px;
+    margin: 10px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -665,6 +654,161 @@ h4, h5 {
 .interests,
 .hobbies {
     flex-direction: column;
+  }
+}
+.blog-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #020F16;
+}
+.blog-container h2 {
+  color: #CBE896;
+  font-size: 50px;
+}
+
+.blog-post-container {
+  width: 75vw;
+  border: 3px solid #7A918D;
+  background-color: #04202E;
+}
+
+.blog-post {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-image {
+  height: 100px;
+  width: 150px;
+  margin: 20px;
+}
+
+.blog-body {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+}
+.blog-info h3,
+.blog-info h4,
+.blog-info h5 {
+  margin: 4px;
+}
+
+.blog-post-link:hover {
+  color: #F1DEDE;
+  border: 2px solid #F1DEDE;
+}
+
+@media only screen and (max-width: 900px) {
+  .blog-post-container {
+    width: 80vw;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .blog-post-container {
+    height: 320px;
+    width: 60vw;
+  }
+
+  .blog-post {
+    flex-direction: column;
+  }
+
+  .blog-info {
+    align-items: center;
+  }
+}
+.my-blog-container {
+  width: 100%;
+  background-color: #020F16;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-blog-post {
+  width: 900px;
+  margin: 30px;
+  border: 3px solid #7A918D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #04202E;
+}
+
+.my-blog-head {
+  display: flex;
+}
+
+.my-blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.my-blog-info h2 {
+  margin: 5px;
+  color: #CBE896;
+}
+
+.my-blog-info h3,
+.my-blog-info h4 {
+  font-size: 15px;
+  margin: 2px;
+}
+
+.my-blog-head img {
+  margin: 20px;
+  height: 200px;
+  width: 300px;
+}
+
+.my-blog-head h2 {
+  margin-top: 0;
+}
+
+.my-blog-content {
+  width: 70vw;
+  max-width: 830px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 700px) {
+  .my-blog-head {
+    flex-direction: column;
+  }
+
+  .my-blog-info {
+    align-items: center;
+  }
+
+  .my-blog-info h2 {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .my-blog-head img {
+    height: 100px;
+    width: 150px;
   }
 }
 

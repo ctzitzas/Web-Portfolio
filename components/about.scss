@@ -1,3 +1,6 @@
+
+// About component
+
 .about-me-container {
   display: flex;
   justify-content: center;
@@ -8,16 +11,24 @@
 .about-me-content {
   border: 3px solid $secondary-color;
   width: 900px;
-  margin: 20px;
   background-color: $primary-color;
+  margin: 10px 0px;
 
-  h2, h3 {
+  h2,
+  h3 {
     text-align: center;
-    color: $text-color;
+    color: $tertiary-color;
+    margin: 15px;
   }
 
   p {
     color: $text-color;
+    margin: 20px;
+    text-align: center;
+  }
+
+  a {
+    text-align: center;
   }
 }
 
@@ -39,16 +50,39 @@
   width: 300px;
 }
 
-@media only screen and (max-width: 700px) {
-  
+.dl-resume-container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin: 10px;
+}
+
+.dl-resume-button:hover {
+  color: white;
+  border: 3px solid white;
+}
+
+@media only screen and (max-width: 900px) {
+  .about-me-content {
+    width: 90vw;
+  }
+
   .introduction,
   .interests,
   .hobbies {
-    
-    img {
-      height: 100px;
-      width: 150px;
-    }
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+
+  .about-me-img {
+    height: 180px;
+    width: 270px;
+    margin: 10px;
   }
 }
 
@@ -57,12 +91,12 @@
   .about-me-content {
     margin: 10px;
   }
-  
+
   .introduction,
   .interests,
   .hobbies {
 
     flex-direction: column;
-    
+
   }
 }
