@@ -3,10 +3,12 @@
 $primary-color: #04202E;
 $secondary-color: #7A918D;
 $tertiary-color: #CBE896;
-$highlight: #EF5D60;
+$highlight: #EF4043;
 $text-color: #F1DEDE;
-$background-color: white;
+$background-color: #020F16;
 
+
+// $highlight: #EF5D60;
 body, html, main {
   padding: 0px;
   margin: 0px;
@@ -22,18 +24,22 @@ h1 {
 
 h2 {
   font-size: 35px;
+  color: $text-color;
 }
 
 h1, h2, a {
   font-family: 'Architects Daughter', cursive;
+  color: $text-color;
 }
 
 h3, p {
   font-family: 'Roboto', sans-serif;
+  color: $text-color;
 }
 
 h4, h5 {
   font-family: 'Open Sans Condensed', sans-serif;
+  color: $text-color;
 }
 
 .contact-info p {
