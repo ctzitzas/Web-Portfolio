@@ -12,12 +12,12 @@
   </head>
   <body>
     <!-- hero landing component -->
-    <section class="hero-container">
+    <header class="hero-container">
       <div class="hero-content">
         <div class="hero-text">
           <h1>Hello, I am <span id="highlight">Chris Tzitzas.</span></h1>
           <h1>I'm a full stack developer.</p>
-          <h1><a class="hero-button" href="">See my skills &rarr;</a></h1>
+          <h1><a class="hero-button" href="skills.html">See my skills &rarr;</a></h1>
         </div>
       </div>
       <img
@@ -25,7 +25,7 @@
           src="img/down-arrow.svg"
           alt="down arrow"
         />
-    </section>
+    </header>
     <main>
       <!-- navbar component  -->
       <nav class="navbar-container">
@@ -36,30 +36,30 @@
             <a class="nav-link-blog" href="blog.html">BLOG</a>
             <a class="nav-link-about" href="about.html">ABOUT</a>
           </div>
-        </dic>
+        </div>
       </nav>
       <!-- blog overiew component -->
       <section class="blog-overview-container">
         <div class="blog-card-container">
           <div class="blog-card" id="blog-card-one">
-            <h2>Blog heading</h2>
+            <h2>My First Blog Post</h2>
             <h3>Chris Tzitzas 12/02/2021</h3>
-            <a href="" class="read-more">Read More</a>
+            <a href="blog/my-blog-1.html" class="read-more button">Read More</a>
           </div>
           <div class="blog-card" id="blog-card-two">
-            <h2>Blog heading</h2>
+            <h2>My Second Blog Post</h2>
             <h3>Chris Tzitzas 12/02/2021</h3>
-            <a href="" class="read-more">Read More</a>
+            <a href="blog/my-blog-2.html" class="read-more button">Read More</a>
           </div>
           <div class="blog-card" id="blog-card-three">
-            <h2>Blog heading</h2>
+            <h2>My Third Blog Post</h2>
             <h3>Chris Tzitzas 12/02/2021</h3>
-            <a href="" class="read-more">Read More</a>
+            <a href="blog/my-blog-3.html" class="read-more button">Read More</a>
           </div>
           <div class="blog-card" id="blog-card-four">
-            <h2>Blog heading</h2>
+            <h2>My Fourth Blog Post</h2>
             <h3>Chris Tzitzas 12/02/2021</h3>
-            <a href="" class="read-more">Read More</a>
+            <a href="blog/my-blog-4.html" class="read-more button">Read More</a>
           </div>
         </div>
       </section>
@@ -70,17 +70,21 @@
             <h2 class="contact-heading">Say Hello!</h2>
             <div class="form-container">
               <form>
-                <input type="text" name="name" class="form-input" value="Name" size="40">
-                <input type="text" name="email" class="form-input" value="Email" size="40">
-                <input type="text" name="subject" class="form-input" value="Subject" size="40">
-                <input type="text" name="message" class="form-input" id="message" value="Message" maxlength="300" size="300">
+                <label for="name">Name</label><br>
+                <input type="text" name="name" class="form-input" id="name" size="40"><br>
+                <label for="email">Email</label><br>
+                <input type="text" name="email" class="form-input" id="email" size="40"><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" name="subject" class="form-input" id="subject" size="40"><br>
+                <label for="message">Message</label><br>
+                <input type="text" name="message" class="form-input" id="message"  maxlength="300" size="300">
                 <br>
                 <input type="submit" id="submit" value="submit">
               </form>
             </div>
           </div>
           <div class="contact-info">
-            <img src="img/skateboard.jpeg" alt="">
+            <img src="img/profile.JPG" alt="My profile picture">
             <p>Chris Tzitzas</p>
             <p>Full-Stack Web Developer</p>
             <p>Student at coder academy</p>
@@ -96,8 +100,8 @@
             <p class="footer-text">Chris Tzitzas  <i class="far fa-copyright"></i></p>
           </div>
           <div class="social-links">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
+            <a href="https://github.com/ctzitzas" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chris-tzitzas-b5a8a5208/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </footer>
