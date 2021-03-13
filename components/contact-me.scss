@@ -101,17 +101,18 @@
 }
 
 @media only screen and (max-width: 450px) {
+
   .contact-me-content {
-    width: 300px;
+    width: 280px;
   }
 
-  contact-info {
-    width: 300px;
+  .contact-info {
+    width: 280px;
     height: 360px;
   }
 
   .contact-form {
-    width: 300px;
+    width: 280px;
     height: 450px;
   }
 }

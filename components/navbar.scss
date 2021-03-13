@@ -42,17 +42,28 @@
 }
 
 
+@media only screen and (max-width: 900px) {
+
+  .nav-link-container {
+    width: 600px;
+  }
+  
+
+  
+}
+
 @media only screen and (max-width: 600px) {
 
   .nav-link-container {
     justify-content: center;
+    width: 300px;
   }
+
   .nav-link-container a{
     font-size: 15px;
     padding: 0 15px;
     margin: 20px 0 0 0;
     height: 20px;
-  }
 
-  
+  }
 }
