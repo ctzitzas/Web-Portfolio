@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/606d734801.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/606d734801.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Chris Tzitzas - About</title>
   </head>
   <body>
@@ -20,7 +26,7 @@
           <a class="nav-link-blog" href="blog.html">BLOG</a>
           <a class="nav-link-about" href="about.html">ABOUT</a>
         </div>
-      </dic>
+      </div>
     </nav>
     <main>
       <!-- about me component -->
@@ -28,39 +34,121 @@
         <div class="about-me-content">
           <h2>About me</h2>
           <div class="introduction">
-            <img class="about-me-img" src="img/skateboard.jpeg" alt="picture of me">
-            <p> This is some stuff introducing myself</p>
+            <img
+              class="about-me-img"
+              src="img/profile.JPG"
+              alt="Picture of me"
+            />
+            <p>
+              Hello! Thanks for checking out my porrtfolio website. My name is
+              Chris Tzitzas and I'm a 34 year old student currently studying at
+              Coder Academy to become a full stack developer. I'm currently
+              living in Melbourne but I'm a country boy at heart.
+            </p>
           </div>
-          <h3>Interests</h3>
+          <h3>Work / Study</h3>
           <div class="interests">
-            <img class="about-me-img" src="img/skateboard.jpeg" alt="picture of raspberry pi">
-            <p>Here i talk about stuff that interests me</p>
+            <img
+              class="about-me-img"
+              src="img/kitchen.jpeg"
+              alt="chef in kitchen"
+            />
+            <p>
+              I have worked in hospitality in hospitality since I was 16 years
+              old. I started off as a dishwasher but worked my up and developed
+              a lot of skills along the way. I've worked front of house as a
+              waiter and bartender but i've mainly worked at back of house as a
+              cook, i've also held manager positions. I have been in the
+              hospitality industry for almost 20 years and I really enjoyed it
+              because i love working with food and customers. However, I'm in
+              need of a change and i want a more challenging careeer. <br />
+              <br />
+              I went to Colac High School and graduated year 12 in 2004. I have
+              since tried studying a couple of times since, the most notable was
+              i did 3 years of a bachelors degree in civil engineerinf at
+              Swinburne University. Although I enjoyed the maths, physics and
+              problem solving nature of the course, i didnt finish it because
+              the later part of the course made me realise that it wasn't the
+              career for me.
+            </p>
           </div>
           <h3>Hobbies</h3>
           <div class="hobbies">
-            <img class="about-me-img" src="img/skateboard.jpeg" alt="pic of me snowboarding">
-            <p>here i talk about my hobbies</p>
+            <img
+              class="about-me-img"
+              src="img/snowboarding.JPG"
+              alt="Me snowboarding"
+            />
+            <p>
+              My most favourite activitiy is going snowboarding. I have done
+              multiple overseas trips and countless domestic trips and i just
+              can't get enough. I also skateboard when there's no snow around. I
+              really enjoy these activities because they make me push myself and
+              progress. I enjoy being pushed out of comfort zone trying to learn
+              something new. <br />
+              <br />I also realy enjoy coding! I've been teachin myself since I
+              first learned coding as part of the civil engineering degree i
+              started. I recently purchased a raspberry pi and starting coding
+              with python to control various electronics.
+            </p>
+          </div>
+          <div class="dl-resume-container">
+            <a
+              href="Mockup-Resume.pdf"
+              target="_blank"
+              class="dl-resume-button button"
+              >Download Resume</a
+            >
           </div>
         </div>
       </section>
       <!-- contact me componet  -->
       <section class="contact-me-container">
         <div class="contact-me-content">
-          <div class="contact-form">            
+          <div class="contact-form">
             <h2 class="contact-heading">Say Hello!</h2>
             <div class="form-container">
               <form>
-                <input type="text" name="name" class="form-input" value="Name" size="40">
-                <input type="text" name="email" class="form-input" value="Email" size="40">
-                <input type="text" name="subject" class="form-input" value="Subject" size="40">
-                <input type="text" name="message" class="form-input" id="message" value="Message" maxlength="300" size="300">
-                <br>
-                <input type="submit" id="submit" value="submit">
+                <label for="name">Name</label><br />
+                <input
+                  type="text"
+                  name="name"
+                  class="form-input"
+                  id="name"
+                  size="40"
+                /><br />
+                <label for="email">Email</label><br />
+                <input
+                  type="text"
+                  name="email"
+                  class="form-input"
+                  id="email"
+                  size="40"
+                /><br />
+                <label for="subject">Subject</label><br />
+                <input
+                  type="text"
+                  name="subject"
+                  class="form-input"
+                  id="subject"
+                  size="40"
+                /><br />
+                <label for="message">Message</label><br />
+                <input
+                  type="text"
+                  name="message"
+                  class="form-input"
+                  id="message"
+                  maxlength="300"
+                  size="300"
+                />
+                <br />
+                <input type="submit" id="submit" value="submit" />
               </form>
             </div>
           </div>
           <div class="contact-info">
-            <img src="img/skateboard.jpeg" alt="">
+            <img src="img/profile.JPG" alt="My profile pic" />
             <p>Chris Tzitzas</p>
             <p>Full-Stack Web Developer</p>
             <p>Student at coder academy</p>
@@ -74,11 +162,19 @@
     <footer class="footer-container">
       <div class="footer-link-container">
         <div class="created-by">
-          <p class="footer-text">Chris Tzitzas  <i class="far fa-copyright"></i></p>
+          <p class="footer-text">
+            Chris Tzitzas <i class="far fa-copyright"></i>
+          </p>
         </div>
         <div class="social-links">
-          <i class="fab fa-github"></i>
-          <i class="fab fa-linkedin"></i>
+          <a href="https://github.com/ctzitzas" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/chris-tzitzas-b5a8a5208/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </div>
       </div>
     </footer>
