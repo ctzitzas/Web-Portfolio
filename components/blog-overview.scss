@@ -1,6 +1,7 @@
 // blog overview 
 
 .blog-overview-container {
+height: 1000px;
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -10,15 +11,9 @@ z-index: 1;
 background-color: $background-color;
 }
 
-.blog-heading-container {
-width: 900px;
-display: flex;
-justify-content: flex-start;
-}
-
 .blog-card-container {
   display: flex;
-  height: 940px;
+  height: 900px;
   width: 900px;
   flex-wrap: wrap;
   border: 5px solid $secondary-color;
@@ -29,13 +24,23 @@ justify-content: flex-start;
   height: 448px;
   width: 448px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-}
 
-.blog-card-text {
-  display: none;
+  .read-button {
+    // position ab
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    margin-top: 0;
+    color: $highlight;
+    margin-bottom: 10px;
+  }
 }
 
 #blog-card-one {
@@ -52,6 +57,7 @@ justify-content: flex-start;
 
 #blog-card-four {
   background-image: url("img/skateboard.jpeg");
+  
 }
 
 .blog-card {
@@ -73,69 +79,47 @@ justify-content: flex-start;
   }
 }
 
-#blog-card-one:hover .blog-card-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.read-more {
+  position: absolute;
+  top: 40%;
+  color: $highlight;
+  display: none;
+  font-size: 30px;
+  border: 2px solid $highlight;
+  text-decoration: none;
+  padding: 5px;
 }
 
-#blog-card-two:hover .blog-card-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.read-more:hover {
+  color: white;
+  border: 2px solid white;
 }
 
-#blog-card-three:hover .blog-card-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#blog-card-four:hover .blog-card-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-
-#blog-card-one:hover {
-  opacity: 80%;
-}
-
-#blog-card-two:hover {
-  opacity: 80%;
-}
-
-#blog-card-three:hover {
-  opacity: 80%;
-}
-
+#blog-card-one:hover,
+#blog-card-two:hover,
+#blog-card-three:hover,
 #blog-card-four:hover {
-  opacity: 80%;
-}
 
+  .read-more {
+    display: flex;
+  }
 
-.blog-link-bar {
-  border: 1px solid black;
-  width: 994px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  opacity: 90%;
 }
 
 @media only screen and (max-width: 900px) {
+
+  .blog-overview-container {
+    height: 1900px;
+  }
+
   .blog-heading-container {
     width: 400px;
   }
 
   .blog-card-container {
     width: 400px;
-    height: 1840px;
+    height: 1800px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
