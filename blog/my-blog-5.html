@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../style.css" integrity="sha512-H5GEce8Tozv7asJHHDrIiFLB0kqXqROwQL/B6fcG8mc9KOKUH3U4z3jSQRFr8etbgZi3oMjQMPH4lgk0kNU7eA"/>
     <script
       src="https://kit.fontawesome.com/606d734801.js"
       crossorigin="anonymous"
@@ -122,7 +122,7 @@
           <div class="contact-form">
             <h2 class="contact-heading">Say Hello!</h2>
             <div class="form-container">
-              <form>
+              <form name="contact" method="POST" data-netlify="true">
                 <label for="name">Name</label><br />
                 <input
                   type="text"
@@ -162,7 +162,7 @@
             </div>
           </div>
           <div class="contact-info">
-            <img src="img/profile.JPG" alt="My profile pic" />
+            <img src="../img/profile.JPG" alt="My profile pic" />
             <p>Chris Tzitzas</p>
             <p>Full-Stack Web Developer</p>
             <p>Student at coder academy</p>
@@ -180,8 +180,8 @@
             </p>
           </div>
           <div class="social-links">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
+            <a href="https://github.com/ctzitzas" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/chris-tzitzas-b5a8a5208/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </footer>

@@ -280,12 +280,8 @@ h5 {
     height: 1900px;
   }
 
-  .blog-heading-container {
-    width: 400px;
-  }
-
   .blog-card-container {
-    width: 400px;
+    width: 420px;
     height: 1800px;
     flex-wrap: wrap;
     justify-content: center;
@@ -293,10 +289,6 @@ h5 {
   }
 }
 @media only screen and (max-width: 600px) {
-  .blog-heading-container {
-    width: 300px;
-  }
-
   .blog-card-container {
     width: 300px;
   }
